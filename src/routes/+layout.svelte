@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Solusi Electric &bull; solusi untuk instalasi listrik anda</title>
+  <title> CCTV Solusi Electric</title>
   <meta name="description" content="toko yang menjual dan melayani berbagai kebutuhan listrik anda, mulai dari alat instalasi listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
   <meta name="keywords" content="CCTV, listrik, electric, pemasangan CCTV, pasang CCTV, maintenance CCTV, lampu, set top box, settopbox, antena, alat listrik, lukman, kabel, instalasi listrik, solusi-electric, solusi electric">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
