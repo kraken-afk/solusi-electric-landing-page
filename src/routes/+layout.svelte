@@ -1,8 +1,6 @@
 <script>
   import '../styles/app.css'
   import Nav from '$lib/components/Nav.svelte'
-
-  export const prerender = true;
 </script>
 
 <svelte:head>
