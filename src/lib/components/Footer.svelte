@@ -27,7 +27,7 @@
   <address class="space-y-2">
     <a href="https://www.google.com/maps/place/CCTV+Solusi+Electric/@-6.3378918,106.8979113,15z/data=!4m6!3m5!1s0x2e69edc916bfb005:0xcc889c89c906d3ed!8m2!3d-6.3378918!4d106.8979113!16s%2Fg%2F11s8y2dvcp?entry=ttu" class="underline">Jl. Malaka Raya RT. 02/05 No.20A Cilangkap - Jakarta Timus</a>
     <a class="flex underline" href="tel:+6281384217355">+62 813 8421 7355</a>
-    <a class="flex underline" href="mailto:lukmanloto.lk@gmail.com">lukmanloto.lk@gmail.com</a>
+    <a class="flex underline" href="mailto:lukmankoto.lk@gmail.com">lukmanloto.lk@gmail.com</a>
     <p>&copy; Lukman kotto LK</p>
   </address>
 </div>

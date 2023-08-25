@@ -16,7 +16,7 @@
 
 <header class="header relative flex flex-col justify-center items-center text-white p-4">
   <span class="text-md sm:text-xl font-extrabold">Kami menyediakan</span>
-  <h1 class="uppercase text-3xl sm:text-5xl my-4 font-extrabold text-center">
+  <h1 class="uppercase text-4xl sm:text-5xl my-4 font-extrabold text-center">
     Layanan jasa
     <span id="header-highlight-text" bind:this={slideUpELement}>
       {#if counter === 0}
@@ -27,12 +27,12 @@
     </span>
     cctv
   </h1>
-  <p class="text-neutral-400 font-sans font-medium text-center">Dan menjual berbagai macam alat elekronik, juga pemasangan instalasi listrik.</p>
+  <p class="text-neutral-300 font-sans font-medium text-center">Dan menjual berbagai macam alat elekronik, juga pemasangan instalasi listrik.</p>
   <div class="my-8 flex space-x-4">
-    <a href="#main">
+    <a href="#main" class="scale-105">
       <ButtonOuter>Telusur</ButtonOuter>
     </a>
-    <a href="#contact">
+    <a href="#contact" class="scale-105">
       <ButtonInner>Hubungi</ButtonInner>
     </a>
   </div>
@@ -95,10 +95,6 @@
   }
 
   @media screen and (max-width: 640px) {
-    .header {
-      height: 90vh;
-    }
-
     #header-highlight-text {
       height: min;
       width: 130px;

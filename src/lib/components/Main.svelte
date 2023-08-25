@@ -37,7 +37,7 @@
 
 <main class="px-4 mx-auto max-w-4xl" id="main">
   <span class="block w-max text-lg px-4 pb-2 my-20 mx-auto relative why-us">Mengapa kami?</span>
-  <section class="flex gap-8 flex-col md:flex-row-reverse justify-start md:justify-items-end md:items-center mt-28 px-4">
+  <section class="flex gap-16 md:gap-8 flex-col md:flex-row-reverse justify-start md:justify-items-end md:items-center mt-28 px-4">
     <article class="w-full md:w-1/2">
       <h2 class="uppercase text-3xl mb-6" >
         <span class="text-blue-gradient">100%</span> terpercaya
@@ -49,7 +49,7 @@
       autoplay-delay="2500"
       autoplay-disable-on-interaction="false"
       style="fill: #fff;"
-      class="block self-center max-w-full md:max-w-xs h-[240px] overflow-hidden object-cover shadow-black shadow-md" slide-per-view="1"
+      class="block self-center max-w-full md:max-w-xs h-[240px] overflow-hidden object-cove" slide-per-view="1"
     >
       <swiper-slide>
         <img src={img1} alt="img 1">
@@ -69,7 +69,7 @@
     </swiper-container>
   </section>
 
-  <section class="flex gap-8 md:gap-24 mt-20 md:mt-60 mb-6 md:mb-52 flex-col md:flex-row justify-center items-center p-4 md:p-0">
+  <section class="flex gap-16 md:gap-24 mt-20 md:mt-60 mb-6 md:mb-52 flex-col md:flex-row justify-center items-center p-4 md:p-0">
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={heart_icon} alt="heart icon" class="pointer-events-none w-[72px] mx-auto" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Berkualitas</h3>
@@ -88,13 +88,13 @@
   </section>
 
   <section class="my-52" id="contact">
-    <h2 class="font-bold text-4xl text-center mb-12">Kunjungi kami</h2>
-    <div class="flex gap-8 md:gap-6 items-center flex-col md:flex-row">
+    <h2 class="font-bold text-4xl text-center mb-8">Kunjungi kami</h2>
+    <div class="flex gap-16 md:gap-6 items-center flex-col md:flex-row">
       <address>
          <a href="https://www.google.com/maps/place/CCTV+Solusi+Electric/@-6.3378918,106.8979113,15z/data=!4m6!3m5!1s0x2e69edc916bfb005:0xcc889c89c906d3ed!8m2!3d-6.3378918!4d106.8979113!16s%2Fg%2F11s8y2dvcp?entry=ttu" class="flex items-start gap-3 text-blue-500 underline"><img class="inline" src={pin_svg} alt="pin icon"> Jl. Malaka Raya RT. 02/05 No.20A Cilangkap - Jakarta Timus</a>
          <div>
           <a class="flex gap-3 mt-4 text-blue-500 underline" href="https://wa.me/+6281384217355"><img src={tel_icon} alt="tel icon"> +62 813 8421 7355</a>
-          <a class="flex gap-3 mt-4 text-blue-500 underline" href="mailto:lukmanloto.lk@gmail.com"><img src={email_icon} alt="email icon"> lukmanloto.lk@gmail.com</a>
+          <a class="flex gap-3 mt-4 text-blue-500 underline" href="mailto:lukmankoto.lk@gmail.com"><img src={email_icon} alt="email icon"> lukmanloto.lk@gmail.com</a>
          </div>
       </address>
       <div class="mapouter shadow-md shadow-black">
