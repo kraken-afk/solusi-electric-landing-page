@@ -1,7 +1,6 @@
 <script>
   import '../styles/app.css'
   import Nav from '$lib/components/Nav.svelte'
-  import banner from '$lib/imgs/banner.jpg';
 
   export const prerender = true;
 </script>
