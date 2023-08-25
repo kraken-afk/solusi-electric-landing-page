@@ -97,7 +97,7 @@
   @media screen and (max-width: 640px) {
     #header-highlight-text {
       height: min;
-      width: 130px;
+      width: 160px;
     }
   }
 

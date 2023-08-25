@@ -69,21 +69,21 @@
     </swiper-container>
   </section>
 
-  <section class="flex gap-16 md:gap-24 mt-20 md:mt-60 mb-6 md:mb-52 flex-col md:flex-row justify-center items-center p-4 md:p-0">
+  <section class="flex gap-16 md:gap-24 mt-28 md:mt-60 mb-6 md:mb-52 flex-col md:flex-row justify-center items-center p-4 md:p-0">
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={heart_icon} alt="heart icon" class="pointer-events-none w-[72px] mx-auto" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Berkualitas</h3>
-      <p class="max-w-xs text-sm text-neutral-700 font-sans font-medium">Kami hanya menjual produk berkualitas dengan harga yang bersaing dipasaran.</p>
+      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami hanya menjual produk berkualitas dengan harga yang bersaing dipasaran.</p>
     </div>
     <div class="spacing-y-4 text-center max-w-xs md:translate-y-[-2rem]">
       <img src={gear_icon} alt="gear icon" class="pointer-events-none w-[72px] mx-auto" style="filter: invert(62%) sepia(89%) saturate(4953%) hue-rotate(184deg) brightness(101%) contrast(102%);">
       <h3 class="font-bold text-3xl my-4">Professional</h3>
-      <p class="max-w-xs text-sm text-neutral-700 font-sans font-medium">Layanan pemasangan CCTV kami telah dipesan oleh berbagai konsumen dari rumahan, hingga pelaku bisnis dan instansi.</p>
+      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Layanan pemasangan CCTV kami telah dipesan oleh berbagai konsumen dari rumahan, hingga pelaku bisnis dan instansi.</p>
     </div>
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={tools_icon} alt="tools icon" class="pointer-events-none w-[72px] mx-auto rotate-45" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Repair service</h3>
-      <p class="max-w-xs text-sm text-neutral-700 font-sans font-medium">Kami juga dapat memperbaiki barang elektronik anda yang rusak, dengan cepat dan efisien.</p>
+      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami juga dapat memperbaiki barang elektronik anda yang rusak, dengan cepat dan efisien.</p>
     </div>
   </section>
 
