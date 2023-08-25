@@ -14,13 +14,9 @@
 
 </script>
 
-<svelte:head>
-  <title>Solusi Electric</title>
-</svelte:head>
-
-<header class="header relative flex flex-col justify-center items-center text-white">
-  <span class="text-2xl font-extrabold">Kami menyediakan</span>
-  <h1 class="uppercase text-5xl my-4 font-extrabold">
+<header class="header relative flex flex-col justify-center items-center text-white p-4">
+  <span class="text-md sm:text-xl font-extrabold">Kami menyediakan</span>
+  <h1 class="uppercase text-3xl sm:text-5xl my-4 font-extrabold text-center">
     Layanan jasa
     <span id="header-highlight-text" bind:this={slideUpELement}>
       {#if counter === 0}
@@ -31,7 +27,7 @@
     </span>
     cctv
   </h1>
-  <p class="text-neutral-400 font-sans font-medium">Dan menjual berbagai macam alat elekronik, juga pemasangan instalasi listrik.</p>
+  <p class="text-neutral-400 font-sans font-medium text-center">Dan menjual berbagai macam alat elekronik, juga pemasangan instalasi listrik.</p>
   <div class="my-8 flex space-x-4">
     <a href="#main">
       <ButtonOuter>Telusur</ButtonOuter>
@@ -96,6 +92,17 @@
     animation: text-animation;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+  }
+
+  @media screen and (max-width: 640px) {
+    .header {
+      height: 90vh;
+    }
+
+    #header-highlight-text {
+      height: min;
+      width: 130px;
+    }
   }
 
   @keyframes text-animation {

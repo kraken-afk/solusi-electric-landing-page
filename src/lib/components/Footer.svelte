@@ -1,5 +1,6 @@
-<footer class="bg-black text-neutral-100 text-sm font-sans p-8 flex gap-4 items-start">
-  <svg class="w-8" viewBox="0 0 56 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<footer class="bg-black text-neutral-100 text-sm font-sans p-8">
+<div class="flex gap-4 items-start flex-col sm:flex-row max-w-4xl mx-auto">
+    <svg class="w-8" viewBox="0 0 56 53" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M27.6988 51C41.7927 51 53.3975 40.1275 53.3975 26.5C53.3975 12.8725 41.7927 2 27.6988 2C13.6048 2 2 12.8725 2 26.5C2 40.1275 13.6048 51 27.6988 51Z" stroke="#00BDA6" stroke-width="4"/>
     <mask id="path-2-inside-1_2_101" fill="white">
     <ellipse cx="27.6013" cy="26.4051" rx="2.53567" ry="2.46835"/>
@@ -29,4 +30,5 @@
     <a class="flex underline" href="mailto:lukmanloto.lk@gmail.com">lukmanloto.lk@gmail.com</a>
     <p>&copy; Lukman kotto LK</p>
   </address>
+</div>
 </footer>
