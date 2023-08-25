@@ -21,7 +21,7 @@
 
   <meta property="og:title" content="Solusi Electric &bull; solusi untuk instalasi listrik anda">
   <meta property="og:description" content="Solusi electric adalah toko listrik yang menjual dan melayani berbagai kebutuhan listrik anda termasuk menjual berbagai alat listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
-  <meta property="og:image" content={banner}>
+  <meta property="og:image" content="/og.jpg">
   <meta property="og:url" content="https://solusi-electric.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Your Website Name">
@@ -29,7 +29,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Solusi Electric &bull; solusi untuk instalasi listrik anda">
   <meta name="twitter:description" content="Solusi electric adalah toko listrik yang menjual dan melayani berbagai kebutuhan listrik anda termasuk menjual berbagai alat listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
-  <meta name="twitter:image" content={banner}>
+  <meta name="twitter:image" content="/og.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
