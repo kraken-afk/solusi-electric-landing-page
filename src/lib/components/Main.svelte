@@ -91,7 +91,7 @@
     <h2 class="font-bold text-4xl text-center mb-8">Kunjungi kami</h2>
     <div class="flex gap-16 md:gap-6 items-center flex-col md:flex-row">
       <address>
-         <a href="https://www.google.com/maps/place/CCTV+Solusi+Electric/@-6.3378918,106.8979113,15z/data=!4m6!3m5!1s0x2e69edc916bfb005:0xcc889c89c906d3ed!8m2!3d-6.3378918!4d106.8979113!16s%2Fg%2F11s8y2dvcp?entry=ttu" class="flex items-start gap-3 text-blue-500 underline"><img class="inline" src={pin_svg} alt="pin icon"> Jl. Malaka Raya RT. 02/05 No.20A Cilangkap - Jakarta Timus</a>
+         <a href="https://www.google.com/maps/place/CCTV+Solusi+Electric/@-6.3378918,106.8979113,15z/data=!4m6!3m5!1s0x2e69edc916bfb005:0xcc889c89c906d3ed!8m2!3d-6.3378918!4d106.8979113!16s%2Fg%2F11s8y2dvcp?entry=ttu" class="flex items-start gap-3 text-blue-500 underline"><img class="inline" src={pin_svg} alt="pin icon"> Jl. Malaka Raya RT. 02/05 No.20A Cilangkap - Jakarta Timur</a>
          <div>
           <a class="flex gap-3 mt-4 text-blue-500 underline" href="https://wa.me/+6281384217355"><img src={tel_icon} alt="tel icon"> +62 813 8421 7355</a>
           <a class="flex gap-3 mt-4 text-blue-500 underline" href="mailto:lukmankoto.lk@gmail.com"><img src={email_icon} alt="email icon"> lukmanloto.lk@gmail.com</a>
