@@ -1,5 +1,5 @@
 <nav class="w-full px-8 py-1 flex items-center bg-neutral-800 fixed top-0 z-50">
-  <a href="/" class="block w-12">
+  <a href="/" class="block w-12" aria-label="home">
     <svg class="w-full" viewBox="0 0 56 53" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M27.6988 51C41.7927 51 53.3975 40.1275 53.3975 26.5C53.3975 12.8725 41.7927 2 27.6988 2C13.6048 2 2 12.8725 2 26.5C2 40.1275 13.6048 51 27.6988 51Z" stroke="#00BDA6" stroke-width="4"/>
       <mask id="path-2-inside-1_2_101" fill="white">
