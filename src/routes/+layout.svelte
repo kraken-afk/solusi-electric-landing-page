@@ -5,7 +5,7 @@
 
 <svelte:head>
   <title> CCTV Solusi Electric</title>
-  <meta name="description" content="toko yang menjual dan melayani berbagai kebutuhan listrik anda, mulai dari alat instalasi listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
+  <meta name="description" content="Melayani pemasangan dan maintenance CCTV, menjual lampu, Set top box, dan lain-lain">
   <meta name="keywords" content="CCTV, listrik, electric, pemasangan CCTV, pasang CCTV, maintenance CCTV, lampu, set top box, settopbox, antena, alat listrik, lukman, kabel, instalasi listrik, solusi-electric, solusi electric">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
@@ -16,16 +16,16 @@
   <meta name="ICBM" content="-6.3378918, 106.8979113">
   <meta name="language" content="id-ID">
 
-  <meta property="og:title" content="Solusi Electric &bull; solusi untuk instalasi listrik anda">
-  <meta property="og:description" content="Solusi electric adalah toko listrik yang menjual dan melayani berbagai kebutuhan listrik anda termasuk menjual berbagai alat listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
+  <meta property="og:title" content="Menerima pemasangan dan maintenance CCTV">
+  <meta property="og:description" content="Melayani pemasangan dan maintenance CCTV, menjual lampu, Set top box, dan lain-lain">
   <meta property="og:image" content="/og.jpg">
   <meta property="og:url" content="https://solusi-electric.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Your Website Name">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Solusi Electric &bull; solusi untuk instalasi listrik anda">
-  <meta name="twitter:description" content="Solusi electric adalah toko listrik yang menjual dan melayani berbagai kebutuhan listrik anda termasuk menjual berbagai alat listrik, lampu, Set top box, hingga pemasangan dan maintenance CCTV">
+  <meta name="twitter:title" content="Menerima pemasangan dan maintenance CCTV">
+  <meta name="twitter:description" content="Melayani pemasangan dan maintenance CCTV, menjual lampu, Set top box, dan lain-lain">
   <meta name="twitter:image" content="/og.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

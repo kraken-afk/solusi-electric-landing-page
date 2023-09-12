@@ -43,7 +43,7 @@
       <h2 class="uppercase text-3xl mb-6" >
         <span class="text-blue-gradient">100%</span> terpercaya
       </h2>
-      <p class="text-md md:text-sm text-neutral-700 font-sans font-medium">Telah terbukti melayani banyak pelanggan, kami berkomitmen untuk memberikan yang terbaik. Dari memperbaiki perangkat yang rusak hingga memasang sistem keamanan CCTV yang canggih, kami selalu berusaha memberikan yang terbaik untuk Anda. Dengan toko kami, Anda dapat yakin bahwa kebutuhan teknologi Anda akan terpenuhi dengan baik.</p>
+      <p class="text-md md:text-sm font-sans">Telah terbukti melayani banyak pelanggan, kami berkomitmen untuk memberikan yang terbaik. Dari memperbaiki perangkat yang rusak hingga memasang sistem keamanan CCTV yang canggih, kami selalu berusaha memberikan yang terbaik untuk Anda. Dengan toko kami, Anda dapat yakin bahwa kebutuhan teknologi Anda akan terpenuhi dengan baik.</p>
     </article>
     <swiper-container
       pagination="true"
@@ -71,17 +71,17 @@
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={heart_icon} alt="heart icon" class="pointer-events-none w-[72px] mx-auto" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Berkualitas</h3>
-      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami hanya menjual produk berkualitas dengan harga yang bersaing dipasaran.</p>
+      <p class="max-w-xs text-md font-sans">Kami hanya menjual produk berkualitas dengan harga yang bersaing dipasaran.</p>
     </div>
     <div class="spacing-y-4 text-center max-w-xs md:translate-y-[-2rem]">
       <img src={gear_icon} alt="gear icon" class="pointer-events-none w-[72px] mx-auto" style="filter: invert(62%) sepia(89%) saturate(4953%) hue-rotate(184deg) brightness(101%) contrast(102%);">
       <h3 class="font-bold text-3xl my-4">Professional</h3>
-      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Layanan pemasangan CCTV kami telah dipesan oleh berbagai konsumen dari rumahan, hingga pelaku bisnis dan instansi.</p>
+      <p class="max-w-xs text-md font-sans">Layanan pemasangan CCTV kami telah dipesan oleh berbagai konsumen dari rumahan, hingga pelaku bisnis dan instansi.</p>
     </div>
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={tools_icon} alt="tools icon" class="pointer-events-none w-[72px] mx-auto rotate-45" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Repair service</h3>
-      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami juga dapat memperbaiki CCTV anda yang rusak, dengan cepat dan efisien.</p>
+      <p class="max-w-xs text-md font-sans">Kami juga dapat memperbaiki CCTV anda yang rusak, dengan cepat dan efisien.</p>
     </div>
   </section>
 
