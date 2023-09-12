@@ -3,7 +3,6 @@
 
   import img1 from '$lib/imgs/img-1.webp';
   import img2 from '$lib/imgs/img-2.webp';
-  import img3 from '$lib/imgs/img-3.webp';
   import img4 from '$lib/imgs/img-4.webp';
   import img5 from '$lib/imgs/img-5.webp';
 
@@ -18,22 +17,24 @@
 </script>
 
 <!-- svelte-ignore a11y-distracting-elements -->
-<marquee class="text-5xl text-neutral-300 uppercase" aria-hidden="true">
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-  <span>solusi electric</span>
-  &bull;
-</marquee>
+<div class="w-full overflow-hidden my-4">
+  <div class="text-5xl text-neutral-300 uppercase flex marque" aria-hidden="true">
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+    <span>solusi electric</span>
+    <span>&bull;</span>
+  </div>
+</div>
 
 <main class="px-4 mx-auto max-w-4xl" id="main">
   <span class="block w-max text-lg px-4 pb-2 my-20 mx-auto relative why-us">Mengapa kami?</span>
@@ -58,9 +59,6 @@
         <img src={img2} alt="img 2">
       </swiper-slide>
       <swiper-slide>
-        <img src={img3} alt="img 3">
-      </swiper-slide>
-      <swiper-slide>
         <img src={img4} alt="img 4">
       </swiper-slide>
       <swiper-slide>
@@ -83,7 +81,7 @@
     <div class="spacing-y-4 text-center max-w-xs">
       <img src={tools_icon} alt="tools icon" class="pointer-events-none w-[72px] mx-auto rotate-45" style="filter: invert(48%) sepia(42%) saturate(2862%) hue-rotate(140deg) brightness(101%) contrast(101%);">
       <h3 class="font-bold text-3xl my-4">Repair service</h3>
-      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami juga dapat memperbaiki barang elektronik anda yang rusak, dengan cepat dan efisien.</p>
+      <p class="max-w-xs text-md text-neutral-900 font-sans font-medium">Kami juga dapat memperbaiki CCTV anda yang rusak, dengan cepat dan efisien.</p>
     </div>
   </section>
 
@@ -115,5 +113,40 @@
     @apply bg-gradient-to-r from-darken-blue to-plain-blue;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .marque {
+    animation: slide 30s linear infinite;
+  }
+
+  .marque:hover {
+    animation-play-state: paused;
+  }
+
+  .marque > span {
+    white-space: nowrap;
+    margin-inline: 1rem;
+    transition: 200ms ease-in-out color;
+    cursor: default;
+  }
+
+  .marque > span:hover {
+    @apply text-neutral-700;
+  }
+
+  @media (prefers-reduce-motion) {
+    .marque {
+      animation-play-state: paused;
+    }
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
   }
 </style>
