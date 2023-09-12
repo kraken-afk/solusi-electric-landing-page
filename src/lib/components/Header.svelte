@@ -27,7 +27,7 @@
     </span>
     cctv
   </h1>
-  <p class="font-sans text-center">Dan menjual berbagai macam alat elekronik</p>
+  <p class="font-sans text-center">Dan menjual berbagai macam barang elekronik</p>
   <div class="my-8 flex space-x-4">
     <a href="#main" class="scale-105">
       <ButtonOuter>Telusur</ButtonOuter>
